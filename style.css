@@ -1,0 +1,205 @@
+body,li,a{
+  color:white !important;
+  background: rgb(18,96,16);
+background: linear-gradient(325deg, rgba(18,96,16,1) 22%, rgba(80,81,27,1) 44%, rgba(7,61,31,1) 88%, rgba(16,55,2,1) 100%);
+ 
+}
+
+.navbar {
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+/* .navbar ,a ,li{
+  color: #A8DF8E !important;
+} */
+
+a {
+  color: white !important;
+}
+
+.cam {
+  margin: auto !important;
+}
+
+
+#contact {
+  padding: 25px 0 25px 0;
+
+}
+
+#cont-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100 0 100px;
+  flex-wrap: wrap;
+}
+
+
+.cont-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.cont-col p {
+  font-weight: bold;
+  color: #292929;
+}
+
+
+.cont-col p a {
+  text-decoration: none;
+  color: #292929;
+}
+
+
+#social a {
+  color: magenta;
+  margin: 3px;
+}
+.cont-row ,i ,p{
+  color: #EBEF95 !important;
+}
+
+.cont-col form {
+  display: flex;
+  flex-direction: column;
+  background-color: magenta;
+  width: 70%;
+  padding: 20px 40px 20px 20px;
+}
+
+
+
+.cont-col form h2 {
+  text-align: center;
+  font-family: cursive;
+}
+
+.cont-col form input {
+  width: 100%;
+  height: 17pt;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+
+/* .cont-col form textarea {
+  width: 99%;
+  padding: 10px;
+  margin-bottom: 5px;
+
+} */
+
+
+.cont-col form button {
+
+  margin: auto;
+  padding: 10px;
+  color: #fff;
+  background-color: orange;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+button :hover {
+  background-color: aqua;
+  transform: scale();
+  transition: 1s;
+
+}
+
+
+
+
+
+.card {
+    
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+ 
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  margin: 0;
+  color: #333;
+}
+
+.card-content p {
+  color: #666;
+}
+
+.card-text{
+  color:purple !important;
+}
+
+
+
+
+
+
+
+
+
+
+#navbar{
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  padding: 15px;
+}
+
+.card{
+  height: 300px !important;
+}
+.card ,img{
+  height: 200px;
+}
+.nim{
+  width: 60px !important;
+  height: 60px !important;
+}
+@media only screen and (max-width:600px) {
+  .card {
+    
+    width: 100%;
+    height: 100% !important;
+    height: auto;
+    font-size: 7px;
+    padding: 0px;
+  }
+  .card,img{
+    height: 50%;
+  }
+  
+  .card-title {
+    color:rgb(20, 224, 9) !important;
+    font-size: 8px;
+  }
+  .card-text{
+    color: red;
+    height: 10px;
+  }
+
+}
+ footer{
+  margin-top: 3%;
+ }
+  
